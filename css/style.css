@@ -1,0 +1,70 @@
+/* CREATE m0nk3y500 // 16.09.2021 */
+/* Stylsheet for my personal web-portfolio */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+body {
+    background: radial-gradient(#34839d, #166f8c, rgb(13, 81, 104));
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+yellow {
+    color: #fdea57;
+}
+
+/* Header */
+.header {
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 7em;
+    text-transform: uppercase;
+}
+
+/*  */
+/* Container */
+/*  */
+.container {
+    position: absolute;
+    /* background: #ffffff8a;; */
+    width: 60%;
+    height: 50vh;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+/* side-image */
+.side-picture {
+    width: 100px;
+    left: 0;
+    height: 100%;
+}
+
+/* side-samuel-one */
+img.side-samuel-one {
+    /* width: 200px; */
+    margin-left: -100px;
+    height: 130%;
+    border-radius: 25%;
+    object-fit: cover;
+    object-position: top center;
+}
+
+/* Text */
+.text {
+    width: 60%;
+    left: 30%;
+    position: absolute;
+    top:  0;
+}
+
+/* p.welcome */
+.text p.welcome {
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 6em;
+}
